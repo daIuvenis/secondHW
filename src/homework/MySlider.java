@@ -8,7 +8,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 import javafx.stage.Stage;
 
-public class MySlider {
+public class MySlider extends Application{
     Slider slider = new Slider(1.0, 10.0, 5.0);
     Label lbl = new Label("Size");
     Button btn = new Button("Choose");

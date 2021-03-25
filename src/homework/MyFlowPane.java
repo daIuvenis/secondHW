@@ -1,5 +1,5 @@
 package sample;
-
+import javafx.application.Application;
 import javafx.geometry.Orientation;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
@@ -7,7 +7,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 
-public class MyFlowPane {
+public class MyFlowPane extends Aplication{
     FlowPane flowPane;
     Scene scene;
     Canvas canvas = new Canvas(900, 700);
